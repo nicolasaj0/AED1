@@ -1,4 +1,5 @@
 //Exercio 1 struct
+
 #include <stdio.h>
 
 typedef struct Address
