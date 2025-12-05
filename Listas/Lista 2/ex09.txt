@@ -1,0 +1,12 @@
+Em C, ao alocar memória em seu código, porém esquecendo de usar o comando
+free() ao final, pode ocasionar em erros de alocações posteriores devido
+à permanência daquele espaço alocado anteriormente. (Memory Leak)
+
+Ou então, ao liberar a memória alocada, e em seguida tentar acessar o mesmo 
+ponteiro anterior resultará em outro erro, pois o acesso desta memória já
+foi liberada. (Dangling pointer)
+
+A alocação e liberação de memória é feita de maneira autônoma em Python,
+não necessitando de um comando específico para atribuir um espaço na memória
+para um objeto, e para liberá-lo ao final basta remover as referências do mesmo.
+(Garbage Collector)

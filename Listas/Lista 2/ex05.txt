@@ -1,0 +1,7 @@
+Exemplo de erro de sintaxe em C: 
+"imt x;" 
+Todo erro gramatical na escrita do código o impede de compilar corretamente.
+
+Exemplo de erro de lógica em C:
+"int x == 10;"
+Neste erro, o usuário está fazendo uma comparação e não atribuição de valor à variável.

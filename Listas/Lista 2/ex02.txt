@@ -1,0 +1,7 @@
+Dado está no âmbito dos fatos, é algo já concretizado;
+Informação trata-se da análise desses mesmos dados, sendo volátil à depender do dado tratado.
+
+42 é um dado;
+Temperatura média de goiânia é uma informação;
+O nome Maria é um dado;
+A nota final de Maria é uma informação;
