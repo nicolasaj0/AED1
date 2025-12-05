@@ -1,0 +1,39 @@
+Selection sort;
+
+Ele ordena um vetor da seguinte forma:
+
+1. Primeiro a função busca o menor elemento presente e troca com o primeiro elemento, assegurando que o menor elemento do vetor está posicionado corretamente;
+
+2. E então, ele segue procurando os menores elementos restantes e o posiciona de forma contínua;
+
+3. O loop continua até que todos os elementos estejam em suas devidas posições.
+
+A complexidade de tempo do selection sort é Big O n ao quadrado, já que há 2 laços de repetições:
+
+* Em um loop é realizado a seleção de elementos do vetor; (Big O de N)
+
+* E no loop seguinte, este mesmo elemento selecionado é comparado aos demais; (Big O de N)
+
+-> Logo, a complexidade é verificada:
+Big 0 (n) * Big O (n) = Big O (n*n) = Big O (n^2).
+
+
+Vantagens do Selection Sort:
+
+1. Fácil compreensão e implementação, facilitando o aprendizado sobre conceitos de ordenação;
+
+2. É necessário apenas uma constante O(1) de espaço de memória extra;
+
+3. Exige menos números de trocas comparado à outros algoritmos de ordenação, como por exemplo o bubble sort, que faz inúmeras trocas de posições adjacentes para ordenar um vetor;
+
+Desvantagens do Selection Sort:
+
+1. Possui um tempo de complexidade de O (n^2) como denotado, o que torna ele significativamente mais lento que algoritmos como o Quick Sort ou o Merge Sort;
+
+2. Não mantém a ordem relativa de elementos iguais, o que implica em uma instabilidade.
+
+Aplicações do Selection Sort:
+
+1. Perfeito para fins didáticos na temática de algoritmos de ordenação;
+
+2. Se encaixa bem em listas pequenas, onde não há justificativa para o uso de algoritmos mais complexos devido ao seu baixo uso de memória comparado aos demais.
