@@ -1,2 +1,3 @@
 # AED1
-Questões de algoritmos e estrutura de dados 1 de Ciência da Computação
+
+Repositório contendo materiais relacionados às aulas de Algoritmo e Estrutura de Dados 1 do curso de Ciência da Computação.
